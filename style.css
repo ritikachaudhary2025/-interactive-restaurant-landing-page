@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 99%;
+    height: 97%;
+    background-image: url('Background2.png');
+    background-size: cover;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    height: 80px;
+}
+
+.logo {
+    font-size: 30px;
+    color: orange;
+}
+
+.nav {
+    position: relative;
+    left: -180px;
+}
+
+.search {
+    color: black;
+    font-size: 25px;
+}
+
+.search i {
+    padding: 5px 20px;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 65px;
+    align-items: center;
+}
+
+.right {
+    width: 450px;
+    height: 450px;
+    background-image: url("food2.jpg");
+    background-size: cover;
+    border-radius: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -120px;
+}
+
+.right::before {
+    width: 440px;
+    height: 440px;
+    border: 2px solid white;
+    content: '';
+    position: absolute;
+    border-radius: 430px;
+    padding: 10px;
+}
+
+.left p:nth-child(1) {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.left h1 {
+    font-size: 90px;
+    color: white;
+}
+
+.left p:nth-child(3) {
+    color: orange;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.left button {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 20px 0px;
+}
+
+.socialMedia {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 40px;
+    height: 200px;
+    background-color: white;
+    font-size: 25px;
+}
+
+.socialMedia i:hover {
+    color: orange;
+}
+
+#food1,#food2 {
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 0 20px;
+}
+
+#food1 {
+    background-image: url("food1.jpg");
+}
+
+#food2 {
+    background-image: url("food2.jpg");
+}
+
+.menu {
+    display: flex;
+    margin: 0px 100px;
+}
